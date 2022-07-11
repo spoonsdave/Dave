@@ -1,0 +1,190 @@
+/* CSS GRID */
+
+html, body {
+  height: 99.5%;
+  display: grid;
+  background-image: url("wallpaper.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+.grid-container {
+  margin: 10px;
+  margin-right: 50px;
+  display: grid;
+  grid-template-columns: 33% 34% 33%;
+  grid-template-rows: auto 1fr auto;
+  grid-gap: 20px;
+}
+
+.top_l {
+  text-align: left;
+  vertical-align: top;
+  padding: 20px;
+  background: rgba(0, 0, 50, 0.25);
+}
+
+.top_c {
+  text-align: center;
+  vertical-align: top;
+  padding: 20px;
+  background: rgba(0, 0, 50, 0.25);
+}
+
+.top_r {
+  text-align: right;
+  vertical-align: top;
+  padding: 20px;
+  background: rgba(0, 0, 50, 0.25);
+}
+
+.mid_l {
+  text-align: left;
+  vertical-align: top;
+  padding: 20px;
+  background: rgba(0, 0, 50, 0.25);
+}
+
+.mid_c {
+  text-align: center;
+  vertical-align: top;
+  padding: 20px;
+  background: rgba(0, 0, 50, 0.25);
+}
+
+.mid_r {
+  text-align: right;
+  vertical-align: top;
+  padding: 20px;
+  background: rgba(0, 0, 50, 0.25);
+}
+
+.bot_l {
+  text-align: left;
+  vertical-align: bottom;
+  padding: 20px;
+  background: rgba(0, 0, 50, 0.25);
+}
+
+.bot_c {
+  text-align: center;
+  vertical-align: bottom;
+  padding: 20px;
+  background: rgba(0, 0, 50, 0.25);
+}
+
+.bot_r {
+  text-align: right;
+  vertical-align: bottom;
+  padding: 20px;
+  background: rgba(0, 0, 50, 0.25);
+}
+
+
+
+
+
+
+/* TYPE STYLING */
+
+
+
+  p {
+    font-size: 14px;
+    color: white;
+    opacity: 0.7;
+    font-weight: 300;
+  }  
+  
+  h1 {
+    font-size: 24px;
+    color: white;
+    opacity: 0.7;
+    font-weight: 300;
+  }  
+  
+  h2 {
+    font-size: 24px;
+    color: white;
+    opacity: 0.7;
+    font-weight: 300;
+  }  
+  
+  h3 {
+    font-size: 14px;
+    color: white;
+    opacity: 0.7;
+    font-weight: 300;
+  }  
+
+  h4 {
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+    opacity: 0.9;
+    font-weight: 300;
+  }  
+  
+
+  footer {
+    font-size: 16px;
+    color: blue;
+    opacity: 0.7;
+    font-weight: 300;
+    height: 50px;
+    position: fixed;
+    left: 50px;
+    bottom: 0;
+    width: 100%;
+  }  
+
+  table {
+    margin-left: 50px;
+  }
+  
+
+  a {
+    color: white;
+    opacity: 0.7;
+  }
+  
+  a:link { 
+    color: white;
+    text-decoration: none; 
+    opacity: 0.7;
+  } 
+  
+  a:hover { 
+    text-decoration: none; 
+    color: black;
+    font-weight: 500;
+    opacity: 0.8;
+  } 
+  
+  #clockbox {
+    font-size: 28px;
+    color: white;
+    opacity: 0.7;
+    font-weight: 300;
+  }
+
+
+.results {
+  font-size: 16px;
+  color: darkred;
+  opacity: 0.7;
+  font-weight: bold;
+  margin-left: 42.5px;
+  top: 390px;
+  position: fixed;
+}
+
+.calculator {
+  font-size: 14px;
+  color: black;
+  opacity: 0.7;
+  font-weight: 300;
+  margin-left: 42.5px;
+}

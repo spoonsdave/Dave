@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500&display=swap" rel="stylesheet">
+       
+        <meta charset="utf-8">
+
+        <title>HELLO DAVE!</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+<div class="grid-container">
+
+
+
+    <div class="top_l">
+        <script async src="https://cse.google.com/cse.js?cx=003710937948606808915:zobvokmdq2m"></script>
+        <div class="gcse-search"></div>
+        </div>
+
+    <div class="top_c"><h2>
+        
+        <div id="greeting"></div>
+
+        <script type="text/javascript">
+            var tday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+            var tmonth = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+            function GetClock() {
+                var d = new Date();
+                var nday = d.getDay(), nmonth = d.getMonth(), ndate = d.getDate();
+                var nhour = d.getHours(), nmin = d.getMinutes(), nsec = d.getSeconds(), greet;
+
+                if (nhour == 0) { greet = "GOOD MORNING"; nhour = 12; }
+                else if (nhour < 12) { greet = "GOOD MORNING"; }
+                else if (nhour >=12 && nhour <= 17) { greet = "GOOD AFTERNOON"; }
+                else if (nhour > 17 && nhour <= 24) { greet = "GOOD EVENING"; nhour -= 12; }
+
+
+                var greettext = greet + " DAVE";
+                document.getElementById('greeting').innerHTML = greettext;
+            }
+
+            GetClock();
+            setInterval(GetClock, 1000);
+        </script>
+
+
+
+
+        
+        
+        
+    </h2></div>
+    <div class="top_r">
+        <p><a href="http://notepadcalculator.com/" target="_blank">CALCULATOR</a></p>
+        </div>
+
+    
+    <div class="mid_l">
+        <p><a href="http://www.google.com/gmail/" target="_blank">GMAIL</a></p>
+        <p><a href="https://web.whatsapp.com/" target="_blank">WHATSAPP</a></p>
+        <p><a href="http://messenger.com/" target="_blank">MESSENGER</a></p>
+        <p><a href="http://todoist.com/app/" target="_blank">TODOIST</a></p>
+        <p><a href="http://www.google.com/calendar/" target="_blank">CALENDAR</a></p>
+        <p><a href="http://www.drive.google.com" target="_blank">DRIVE</a></p>
+        <p><a href="http://www.airtable.com" target="_blank">AIRTABLE</a></p>
+        <p><a href="http://www.evernote.com/Login.action" target="_blank">EVERNOTE</a></p>
+        <p><a href="https://app.standardnotes.org/" target="_blank">STANDARD NOTES</a></p>
+        
+
+    </div>
+
+
+    <div class="mid_c">
+
+                <div id="clockbox"></div>
+
+                <script type="text/javascript">
+                    var tday = ["SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"];
+                    var tmonth = ["JANUARY", "FEBRUARY", "MARCH", "APRIL", "MAY", "JUNE", "JULY", "AUGUST", "SEPTEMBER", "OCTOBER", "NOVEMBER", "DECEMBER"];
+
+                    function GetClock() {
+                        var d = new Date();
+                        var nday = d.getDay(), nmonth = d.getMonth(), ndate = d.getDate();
+                        var nhour = d.getHours(), nmin = d.getMinutes(), nsec = d.getSeconds(), ap;
+
+                        if (nhour == 0) { ap = " AM"; nhour = 12; }
+                        else if (nhour < 12) { ap = " AM"; }
+                        else if (nhour == 12) { ap = " PM"; }
+                        else if (nhour > 12) { ap = " PM"; nhour -= 12; }
+
+                        if (nmin <= 9) nmin = "0" + nmin;
+                        if (nsec <= 9) nsec = "0" + nsec;
+
+                        var clocktext = nhour + ":" + nmin + ":" + nsec + ap + "<br>" + tday[nday] + " " + ndate + " " + tmonth[nmonth];
+                        document.getElementById('clockbox').innerHTML = clocktext;
+                    }
+
+                    GetClock();
+                    setInterval(GetClock, 1000);
+                </script>
+
+
+
+
+
+
+    </div>
+
+    <div class="mid_r">
+        
+        <p><a href="https://www.bbc.co.uk/sounds/play/live:bbc_6music" target="_blank">6 MUSIC</a></p>
+        <p><a href="http://music.apple.com" target="_blank">APPLE MUSIC</a></p>
+        <p><a href="http://www.bbc.co.uk/news/" target="_blank">NEWS</a></p>
+        <p><a href="http://www.bbc.com/weather/" target="_blank">WEATHER</a></p>
+        <p><a href="https://www.facebook.com/groups/1417068518440947" target="_blank">FACEBOOK NNBR MEMBERS</a></p>
+        <p><a href="http://www.codecademy.com" target="_blank">CODECADEMY</a></p>
+        <p><a href="https://repl.it/repls" target="_blank">REPL.IT</a></p>
+        <p><a href="https://3cols.com/board/bhxlcX/5657" target="_blank">3COLS</a></p>
+        <p><a href="http://www.print.peakcondition.info" target="_blank">PRINT RESOURCES</a></p>
+    </div>
+
+
+
+
+    <div class="bot_l">
+        <p><a href="rockpaper.html">ROCK, PAPER, SCISSORS</a></p>
+    </div>
+    <div class="bot_c"><h3>DESIGN BY SPOONS</h3></div>
+    <div class="bot_r">
+        <p><a href="BMI.html">BMI CALCULATOR</a></p>
+        </div>
+
+</body>
+</html>
